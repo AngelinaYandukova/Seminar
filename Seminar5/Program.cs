@@ -123,7 +123,7 @@ else Console.WriteLine($"Число {number} в массиве отсутств�
 
 // 4. Задайте одномерный массив из m случайных чисел. Найдите 
 // количество элементов массива, значения которых лежат в отрезке [a,b].
-
+/*
 int[] CreateRandomArray(int size, int minValue, int maxValue)
 {
     int[] array = new int[size]; 
@@ -170,3 +170,4 @@ int maxSeg = Convert.ToInt32(Console.ReadLine());
 int result = Count(myArray, minSeg, maxSeg);
 Console.WriteLine($"{result}");
 // Console.WriteLine(Count(myArray, minSeg, maxSeg));
+*/
