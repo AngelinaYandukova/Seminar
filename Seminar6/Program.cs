@@ -145,6 +145,20 @@ WriteArray(myArray);
 int[] copiedArray = Copy(myArray);
 WriteArray(copiedArray);
 
+// Проверка
+myArray[0] = 0;
+WriteArray(myArray);
+WriteArray(copiedArray);
+
+// Выход
+// Input a length of an array: 6
+// Input a min possible value: 1
+// Input a max possible value: 10
+// 7 8 10 8 10 2
+// 7 8 10 8 10 2
+// 0 8 10 8 10 2
+// 7 8 10 8 10 2
+
 
 // Написать программу, преобразующую число из десятеричной системы 
 // счисления в двоичную.
